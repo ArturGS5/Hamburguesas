@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var mensajePaises: UILabel!
+    
+    @IBOutlet weak var mensajeHamburguesas: UILabel!
+    
+    let colores = Colores()
+    let paises = ColeccionDePaises()
+    let hamburguesas = ColeccionDeHamburguesa()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +28,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func dameHamburguesa() {
+        let coloresAleotorio = colores.obtenColor()
+        view.backgroundColor = coloresAleotorio
+        view.tintColor = coloresAleotorio
+        mensajePaises.text = paises.obtenPais()
+        mensajeHamburguesas.text = hamburguesas.obtenHamburguesa()
+    }
 
 }
 

@@ -14,6 +14,8 @@
 		4C77BED61DC7C2350046F324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C77BED41DC7C2350046F324 /* LaunchScreen.storyboard */; };
 		4C77BEE11DC7C2350046F324 /* HamburguesasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77BEE01DC7C2350046F324 /* HamburguesasTests.swift */; };
 		4C77BEEC1DC7C2350046F324 /* HamburguesasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77BEEB1DC7C2350046F324 /* HamburguesasUITests.swift */; };
+		4C77BEFA1DC7C25F0046F324 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77BEF91DC7C25F0046F324 /* Datos.swift */; };
+		4C77BEFC1DC7C2720046F324 /* Colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77BEFB1DC7C2720046F324 /* Colores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4C77BEE71DC7C2350046F324 /* HamburguesasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C77BEEB1DC7C2350046F324 /* HamburguesasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesasUITests.swift; sourceTree = "<group>"; };
 		4C77BEED1DC7C2350046F324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C77BEF91DC7C25F0046F324 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		4C77BEFB1DC7C2720046F324 /* Colores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4C77BED21DC7C2350046F324 /* Assets.xcassets */,
 				4C77BED41DC7C2350046F324 /* LaunchScreen.storyboard */,
 				4C77BED71DC7C2350046F324 /* Info.plist */,
+				4C77BEF91DC7C25F0046F324 /* Datos.swift */,
+				4C77BEFB1DC7C2720046F324 /* Colores.swift */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				4C77BECE1DC7C2350046F324 /* ViewController.swift in Sources */,
 				4C77BECC1DC7C2350046F324 /* AppDelegate.swift in Sources */,
+				4C77BEFA1DC7C25F0046F324 /* Datos.swift in Sources */,
+				4C77BEFC1DC7C2720046F324 /* Colores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
